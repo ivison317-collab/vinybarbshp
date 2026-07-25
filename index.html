@@ -46,54 +46,65 @@
             position: relative;
         }
 
-        /* ===== PARTÍCULAS (RAIOS) ===== */
+        /* ===== PARTÍCULAS MELHORADAS ===== */
         .lightning {
             position: fixed;
             color: #ff2a2a;
-            font-size: 9px;
-            opacity: 0.35;
+            font-size: 11px;
+            opacity: 0.45;
             pointer-events: none;
             z-index: 0;
-            text-shadow: 0 0 6px rgba(255, 42, 42, 0.6);
+            text-shadow: 0 0 8px rgba(255, 42, 42, 0.7);
             animation: floatLightning linear infinite;
             will-change: transform;
         }
-        .lightning:nth-child(1)  { left: 4%;  top: 10%; animation-duration: 8s;  animation-delay: 0s;   font-size: 8px; }
-        .lightning:nth-child(2)  { left: 16%; top: 62%; animation-duration: 7s;  animation-delay: -1s;  font-size: 10px; }
-        .lightning:nth-child(3)  { left: 30%; top: 20%; animation-duration: 9s;  animation-delay: -2s;  font-size: 7px; }
-        .lightning:nth-child(4)  { left: 48%; top: 75%; animation-duration: 6.5s; animation-delay: -0.8s; font-size: 9px; }
-        .lightning:nth-child(5)  { left: 62%; top: 12%; animation-duration: 8.5s; animation-delay: -3s;  font-size: 8px; }
-        .lightning:nth-child(6)  { left: 76%; top: 45%; animation-duration: 7.5s; animation-delay: -1.5s; font-size: 9px; }
-        .lightning:nth-child(7)  { left: 88%; top: 28%; animation-duration: 6s;  animation-delay: -4s;  font-size: 8px; }
-        .lightning:nth-child(8)  { left: 9%;  top: 38%; animation-duration: 10s; animation-delay: -2s;  font-size: 7px; }
-        .lightning:nth-child(9)  { left: 24%; top: 82%; animation-duration: 7.8s; animation-delay: -3.5s; font-size: 9px; }
-        .lightning:nth-child(10) { left: 42%; top: 6%;  animation-duration: 8.2s; animation-delay: -1.2s; font-size: 8px; }
-        .lightning:nth-child(11) { left: 56%; top: 52%; animation-duration: 6.8s; animation-delay: -0.5s; font-size: 9px; }
-        .lightning:nth-child(12) { left: 71%; top: 70%; animation-duration: 9.5s; animation-delay: -4.5s; font-size: 8px; }
-        .lightning:nth-child(13) { left: 84%; top: 16%; animation-duration: 7.2s; animation-delay: -2.8s; font-size: 10px; }
-        .lightning:nth-child(14) { left: 13%; top: 26%; animation-duration: 8.8s; animation-delay: -1.8s; font-size: 7px; }
-        .lightning:nth-child(15) { left: 36%; top: 46%; animation-duration: 6.2s; animation-delay: -3.2s; font-size: 9px; }
-        .lightning:nth-child(16) { left: 53%; top: 88%; animation-duration: 7.5s; animation-delay: -0.3s; font-size: 8px; }
-        .lightning:nth-child(17) { left: 67%; top: 33%; animation-duration: 9s;  animation-delay: -4.2s; font-size: 9px; }
-        .lightning:nth-child(18) { left: 91%; top: 58%; animation-duration: 6.5s; animation-delay: -2.2s; font-size: 8px; }
-        .lightning:nth-child(19) { left: 7%;  top: 72%; animation-duration: 8s;  animation-delay: -3.8s; font-size: 7px; }
-        .lightning:nth-child(20) { left: 79%; top: 83%; animation-duration: 7s;  animation-delay: -1.6s; font-size: 9px; }
+        .lightning:nth-child(1)  { left: 5%;  top: 8%;  animation-duration: 7s;  animation-delay: 0s;   }
+        .lightning:nth-child(2)  { left: 18%; top: 55%; animation-duration: 6s;  animation-delay: -1s;  }
+        .lightning:nth-child(3)  { left: 32%; top: 18%; animation-duration: 8s;  animation-delay: -2s;  }
+        .lightning:nth-child(4)  { left: 48%; top: 70%; animation-duration: 5.5s; animation-delay: -0.5s;}
+        .lightning:nth-child(5)  { left: 62%; top: 12%; animation-duration: 7.5s; animation-delay: -3s;  }
+        .lightning:nth-child(6)  { left: 75%; top: 42%; animation-duration: 6.5s; animation-delay: -1.5s;}
+        .lightning:nth-child(7)  { left: 88%; top: 25%; animation-duration: 5s;  animation-delay: -4s;  }
+        .lightning:nth-child(8)  { left: 10%; top: 35%; animation-duration: 9s;  animation-delay: -2s;  }
+        .lightning:nth-child(9)  { left: 25%; top: 80%; animation-duration: 6.8s; animation-delay: -3.5s;}
+        .lightning:nth-child(10) { left: 40%; top: 5%;  animation-duration: 7.2s; animation-delay: -1.2s;}
+        .lightning:nth-child(11) { left: 55%; top: 50%; animation-duration: 5.8s; animation-delay: -0.3s;}
+        .lightning:nth-child(12) { left: 70%; top: 68%; animation-duration: 8.5s; animation-delay: -4.5s;}
+        .lightning:nth-child(13) { left: 85%; top: 15%; animation-duration: 6.2s; animation-delay: -2.8s;}
+        .lightning:nth-child(14) { left: 15%; top: 60%; animation-duration: 7.8s; animation-delay: -1.8s;}
+        .lightning:nth-child(15) { left: 38%; top: 40%; animation-duration: 5.2s; animation-delay: -3.2s;}
+        .lightning:nth-child(16) { left: 52%; top: 85%; animation-duration: 6.5s; animation-delay: -0.7s;}
+        .lightning:nth-child(17) { left: 67%; top: 30%; animation-duration: 8s;  animation-delay: -4.2s;}
+        .lightning:nth-child(18) { left: 90%; top: 55%; animation-duration: 5.5s; animation-delay: -2.2s;}
+        .lightning:nth-child(19) { left: 8%;  top: 75%; animation-duration: 7s;  animation-delay: -3.8s;}
+        .lightning:nth-child(20) { left: 78%; top: 80%; animation-duration: 6s;  animation-delay: -1.6s;}
 
         @keyframes floatLightning {
-            0%   { transform: translate(0, 0) rotate(0deg) scale(1);   opacity: 0.2; }
-            25%  { transform: translate(18px, -22px) rotate(18deg) scale(1.05); opacity: 0.4; }
-            50%  { transform: translate(-14px, 16px) rotate(-14deg) scale(0.95); opacity: 0.3; }
-            75%  { transform: translate(20px, 10px) rotate(22deg) scale(1.08); opacity: 0.45; }
-            100% { transform: translate(0, 0) rotate(0deg) scale(1);   opacity: 0.2; }
+            0%   { transform: translate(0, 0) rotate(0deg) scale(1); opacity: 0.3; }
+            25%  { transform: translate(20px, -25px) rotate(20deg) scale(1.1); opacity: 0.55; }
+            50%  { transform: translate(-15px, 18px) rotate(-15deg) scale(0.9); opacity: 0.4; }
+            75%  { transform: translate(22px, 12px) rotate(25deg) scale(1.15); opacity: 0.6; }
+            100% { transform: translate(0, 0) rotate(0deg) scale(1); opacity: 0.3; }
         }
 
-        @media (max-width: 480px) {
-            .lightning {
-                opacity: 0.28;
-                font-size: 7px !important;
-            }
-            .lightning:nth-child(odd)  { font-size: 6px !important; }
-            .lightning:nth-child(even) { font-size: 8px !important; }
+        /* Botão de ativar áudio (só aparece se precisar) */
+        #btnAudio {
+            position: fixed;
+            bottom: 25px;
+            right: 20px;
+            background: var(--gold-gradient);
+            color: #000;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            z-index: 999;
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+            display: none;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
         }
 
         .container {
@@ -211,8 +222,6 @@
             .container { padding: 26px 16px 24px; }
             .brand-title { font-size: 1.85rem; }
             .brand-title .brand-secondary { font-size: 1rem; letter-spacing: 4px; }
-            .service-title { font-size: 0.85rem; }
-            .service-desc { font-size: 0.68rem; }
         }
     </style>
 </head>
@@ -238,6 +247,11 @@
     <i class="fa-solid fa-bolt lightning"></i>
     <i class="fa-solid fa-bolt lightning"></i>
     <i class="fa-solid fa-bolt lightning"></i>
+
+    <!-- Botão de áudio -->
+    <button id="btnAudio" onclick="falarBoasVindas()">
+        🔊 Ativar Áudio
+    </button>
 
     <div class="container">
         <div class="brand-header">
@@ -348,23 +362,27 @@
     </div>
 
     <script>
-        // ===== VOZ TERROR (funciona no celular) =====
+        // ===== VOZ TERROR =====
         let jaFalou = false;
 
         function falarBoasVindas() {
             if (jaFalou) return;
             jaFalou = true;
 
+            // Esconde o botão
+            const btn = document.getElementById('btnAudio');
+            if (btn) btn.style.display = 'none';
+
             speechSynthesis.cancel();
 
-          const fala = new SpeechSynthesisUtterance(
-    "Viny Barber Shop... Seja bem-vindo... Faça logo o seu agendamento."
-);
+            const fala = new SpeechSynthesisUtterance(
+                "Viny Barber Shop... Seja bem-vindo... Faça logo o seu agendamento."
+            );
 
-fala.lang = 'pt-BR';
-fala.rate = 0.78;      // velocidade boa (não lenta)
-fala.pitch = 0.18;     // ainda bem grave
-fala.volume = 1;
+            fala.lang = 'pt-BR';
+            fala.rate = 0.78;
+            fala.pitch = 0.18;
+            fala.volume = 1;
 
             const voices = speechSynthesis.getVoices();
             const vozTerror = voices.find(v =>
@@ -380,7 +398,7 @@ fala.volume = 1;
             speechSynthesis.speak(fala);
         }
 
-        // Tenta tocar no carregamento
+        // Tenta tocar automático
         window.addEventListener('load', () => {
             setTimeout(() => {
                 if (speechSynthesis.getVoices().length > 0) {
@@ -388,19 +406,20 @@ fala.volume = 1;
                 } else {
                     speechSynthesis.onvoiceschanged = () => falarBoasVindas();
                 }
-            }, 600);
+
+                // Se depois de 1.5s ainda não falou, mostra o botão
+                setTimeout(() => {
+                    if (!jaFalou) {
+                        document.getElementById('btnAudio').style.display = 'flex';
+                    }
+                }, 1500);
+            }, 500);
         });
 
-        // Se o navegador bloqueou, toca no primeiro toque
-        function ativarVozNoToque() {
-            if (!jaFalou) {
-                falarBoasVindas();
-            }
-            document.removeEventListener('click', ativarVozNoToque);
-            document.removeEventListener('touchstart', ativarVozNoToque);
-        }
-        document.addEventListener('click', ativarVozNoToque);
-        document.addEventListener('touchstart', ativarVozNoToque);
+        // Também tenta no primeiro toque
+        document.addEventListener('click', function() {
+            if (!jaFalou) falarBoasVindas();
+        }, { once: true });
 
         // ===== FORMULÁRIO =====
         let selectedServices = [];
@@ -433,7 +452,6 @@ fala.volume = 1;
         const form = document.getElementById('bookingForm');
         form.addEventListener('submit', async function (e) {
             e.preventDefault();
-
             if (selectedServices.length === 0) {
                 Swal.fire({
                     title: 'Atenção!',
@@ -473,9 +491,7 @@ fala.volume = 1;
                     body: formData,
                     headers: { 'Accept': 'application/json' }
                 });
-            } catch (error) {
-                console.log("Erro no envio do e-mail");
-            }
+            } catch (error) {}
 
             const mensagemWhats = `👑 *NOVO AGENDAMENTO VIP*%0A%0A` +
                 `*Cliente:* ${cliente}%0A` +
